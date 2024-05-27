@@ -5,5 +5,7 @@ declare namespace NodeJS {
     KEYCLOAK_CLIENT_SECRET: string;
     KEYCLOAK_ISSUER: string;
     NEXTAUTH_URL: string;
+    NEXTAUTH_SECRET: string;
+    KEYCLOAK_END_SESSION_URL: string;
   }
 }

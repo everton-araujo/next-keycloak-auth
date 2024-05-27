@@ -16,8 +16,6 @@ export default function CustomLogin() {
       body: JSON.stringify({ username, password }),
     });
 
-    console.log(response)
-
     if (response.ok) {
       window.location.href = "/";
     }

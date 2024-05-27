@@ -26,8 +26,6 @@ export default async function login(req: NextApiRequest, res: NextApiResponse) {
 
   const data = await response.json();
 
-  console.log({ response, data });
-
   if (response.ok) {
     res.status(200).json(data);
   } else {
